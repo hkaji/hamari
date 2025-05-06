@@ -4,3 +4,11 @@ sphinx 2
 
 | 試しに、こんな感じのページを
 | 作ってみる！
+
+blockdiagramのテスト
+
+.. blockdiag::
+
+    blockdiag {
+        Local PC -> GIthub -> Netlify;
+    }

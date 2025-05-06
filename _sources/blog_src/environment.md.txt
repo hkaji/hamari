@@ -4,6 +4,12 @@ SSG : sphinx
 
 local PC : Win10 + WSL2(debian)
 
-blockdiag {
-    Local PC -> GIthub -> Netlify
-}
+
+```eval_rst
+.. blockdiag::
+   :desctable:
+
+    blockdiag {
+        Local PC -> GIthub -> Netlify;
+    }
+```
