@@ -15,6 +15,7 @@
    :caption: 初めてのめーじ
    :numbered:
 
+   /blog_src/environment.md
    /blog_src/start
    /blog_src/2nd
 

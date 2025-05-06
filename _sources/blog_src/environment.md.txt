@@ -1,0 +1,9 @@
+# このページの環境
+
+SSG : sphinx
+
+local PC : Win10 + WSL2(debian)
+
+blockdiag {
+    Local PC -> GIthub -> Netlify
+}
