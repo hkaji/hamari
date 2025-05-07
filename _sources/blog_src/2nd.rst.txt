@@ -10,5 +10,5 @@ blockdiagramのテスト
 .. blockdiag::
 
     blockdiag {
-        Local PC -> GIthub -> Netlify;
+        Local_PC -> GitHub -> Netlify;
     }
