@@ -1,0 +1,134 @@
+
+
+<!doctype html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>notebookLM使ってみた &#8212; hamari 1.0.0 ドキュメント</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/bizstyle.css" />
+    
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/bizstyle.js"></script>
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="検索" href="../../search.html" />
+<script>
+<!-- ここにanalyticsタグ -->
+</script>
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">hamari 1.0.0 ドキュメント</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">notebookLM使ってみた</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="notebooklm">
+<h1>notebookLM使ってみた<a class="headerlink" href="#notebooklm" title="この見出しへのパーマリンク">¶</a></h1>
+<p>Googleが提供しているサービスで、お試し程度なら無料のようです。
+AI活用は、promptで入力した内容が次のバージョンの学習データに使われてそうで
+ちょっと嫌な感じなのですが、これは入力データが反映されないようです。</p>
+<p>主な使い方としては、</p>
+<ul class="simple">
+<li><p>テキストの要約</p></li>
+<li><p>要点の抽出
+など今どきのAI活用なことはできるようです。</p></li>
+</ul>
+<p>以前作ったマニアックblogを引用して
+「有用な部分はどこですか」と聞いてみました。</p>
+<p>回答は以下のとおりです</p>
+<div class="highlight-txt notranslate"><div class="highlight"><pre><span></span>提供されたソースは、hkaji氏による「一歩のはまりから」というブログの抜粋です。このブログの有益な部分は、主に以下の点にあると考えられます。
+1.作者の多様な技術的実践経験が共有されている点
+
+◦ブログは作者自身の「備忘録」としてまとめられており、様々な技術を「試してみました」、「動かしてみる」、「購入しました」、「おさらいと開発環境の確認」、「開発環境を構築する」 といった、実際に手を動かして得た経験や知識が記録されています。このような実践に基づいた情報は、読者が同じ技術を試す際に直面しうる課題や、その解決策を探る上で非常に参考になります。
+
+◦特に、マイコンや電子工作、3Dプリンターといったハードウェア関連のプロジェクト（レーザー距離センサーの動作確認
+、Pi picoのおさらい、倒立ロボットの作成、3Dプリンターでの依頼品印刷
+ など）に関する具体的な試みは、これからこれらの分野を始める人や、特定のハードウェアを使おうとしている人にとって有益です。
+
+2.幅広い技術トピックを網羅している点
+
+◦作者が興味を持っている「マイコン、電子工作、3Dプリンター」を中心に、関連する様々な技術トピックが扱われています。
+◦AI・機械学習: Stable Diffusion、dall-e（API経由を含む）、chatGPT（VScode拡張機能やOpenAI提供のもの） といった、比較的新しいAI技術の試用記事が含まれており
+、最新技術への関心がある読者にとって有益な情報源となり得ます。
+◦ハードウェア・電子工作: ミニPC、レーザー距離センサーVL53L0XとM5stickC plusの組み合わせ、Pi pico (RP2040)、倒立ロボット、3Dプリンター関連（Cura, Ender3v2, Octoprint） など、具体的なハードウェアやモジュール、ツールを使った試みが記録されています。Esp32 やRaspberry Pi (Pi pico, Pi zero, Pi2b, Pi4b)
+など、よく使われる開発ボードに関する記事も含まれています。
+◦プログラミング・開発環境: Go言語（Starlink衛星間の距離計算、TinyGo）、Python（dall-e API利用、chatGPT関連）、VScode拡張機能、TinyGoの開発環境構築（Pi2b, Debian） など、特定のプログラミング言語や開発環境に関する情報も提供されています。
+◦その他、Webサイト関連（CSSカスタマイズ、Hugo, SSG）、データベース関連（tsdbカテゴリ、Prometheus, Promql）、Starlink
+ など、幅広い分野に触れています。
+
+3.具体的な技術要素やツール名のリストアップ
+◦ブログ全体を通して、非常に多くの具体的な技術要素やツール名がタグとしてリストアップされています。例えば、Arduino, Esp32, Raspberry Pi各種, M5stackc plus, Pi pico, VL53L0X, Stable diffusion, Chatgpt, Dall e, Tinygo, Vscode, Github, Cura, Ender3v2, Octoprint など、70以上のタグがあります。これらのタグやカテゴリ
+ は、読者が特定の興味対象に関する記事を効率的に検索するのに役立ちます。
+ 
+総じて、このブログは、作者の「実際にやってみた」という実践的なアプローチに基づいた、多様な技術分野（特にマイコン、電子工作、3Dプリンター、AI）に関する具体的な試みや経験が記録されている点が有益であると言えます。
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="../../_static/hamari_logo.jpg" alt="Logo"/>
+            </a></p>
+  <div role="note" aria-label="source link">
+    <h3>このページ</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/blog_src/si/notebookLM.md.txt"
+            rel="nofollow">ソースコードを表示</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">hamari 1.0.0 ドキュメント</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">notebookLM使ってみた</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2025, hkaji.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
+    </div>
+  </body>
+</html>
