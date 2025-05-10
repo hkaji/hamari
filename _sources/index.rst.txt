@@ -14,6 +14,15 @@
    /blog_src/start
    /blog_src/2nd
 
+このページの作者と環境
+==========================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Authorなど:
+
+   /blog_src/editor
+
 Indices and tables
 ==================
 
