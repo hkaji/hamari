@@ -8,9 +8,7 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-   /blog_src/environment.md
    /blog_src/start
    /blog_src/2nd
 
@@ -19,9 +17,9 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: Authorなど:
 
-   /blog_src/editor
+   /blog_src/environment/editor
+   /blog_src/environment/environment
 
 Indices and tables
 ==================

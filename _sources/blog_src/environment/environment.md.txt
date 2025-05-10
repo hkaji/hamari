@@ -1,0 +1,16 @@
+# このページの作成環境
+
+SSG : sphinx
+
+local PC : Win10 + WSL2(debian)
+
+
+```rst
+.. blockdiag::
+   :desctable:
+
+    blockdiag {
+        Local PC -> GIthub -> Netlify;
+    }
+
+```
