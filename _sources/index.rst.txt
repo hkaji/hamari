@@ -9,8 +9,30 @@
 .. toctree::
    :maxdepth: 2
 
+マイコン
+-----------------
+
+.. toctree::
+   :maxdepth: 2
+
    /blog_src/start
    /blog_src/2nd
+
+3Dプリンタ
+-----------------
+
+.. toctree::
+   :maxdepth: 2
+
+
+AI関連
+-----------------
+
+.. toctree::
+   :maxdepth: 2
+
+   /blog_src/ai/notebookLM
+
 
 このページの作者と環境
 ==========================
