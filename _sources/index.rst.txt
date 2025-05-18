@@ -43,7 +43,9 @@ AI関連
    /blog_src/environment/editor
    /blog_src/environment/environment
 
-.. button-link:: https://hkaji.github.io
+.. button-link:: https://hkaji.github
+      :color: primary
+
 
 Indices and tables
 ==================
