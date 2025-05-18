@@ -28,6 +28,9 @@
 AI関連
 -----------------
 
+.. toctree::
+   :maxdepth: 2
+   
 .. grid:: 1 2 3 4
    :outline:
 
