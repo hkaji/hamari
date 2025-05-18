@@ -28,16 +28,16 @@
 AI関連
 -----------------
 
-.. grid:: 1 2
-    :outline:
+.. grid:: 1 2 3 4
+   :outline:
 
-    .. grid-item::
+   .. grid-item::
 
-        /blog_src/ai/notebookLM
+      /blog_src/ai/notebookLM
 
-    .. grid-item::
+   .. grid-item::
 
-        /blog_src/ai/notebookLM
+      /blog_src/ai/notebookLM
 
    
 
